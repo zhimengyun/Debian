@@ -1,7 +1,7 @@
 #!/bin/bash
 sourcesfile="https://raw.githubusercontent.com/zhimengyun/Debian/master/sources.list"
 
-if [ -f "sources.list" ];
+if [ ! -f "sources.list" ];
 then
   echo "wget sources.list~"
   wget $sourcesfile
