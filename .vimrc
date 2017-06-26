@@ -7,8 +7,8 @@ filetype on
 "背景
 "set background=dark
 "自动对齐
-set autoindent
-set smartindent
+"set autoindent
+"set smartindent
 "匹配
 set showmatch
 "显示光标位置的状态行
