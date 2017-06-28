@@ -1,2 +1,2 @@
 # Debian
-program in Debian .
+Program in Debian .
