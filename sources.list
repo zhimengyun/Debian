@@ -4,115 +4,109 @@
 #apt-get update && apt-get upgrade
 
 
-deb http://mirrors.ustc.edu.cn/debian/ stable main contrib non-free
-deb-src http://mirrors.ustc.edu.cn/debian/ stable main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian/ stretch main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian/ stretch main contrib non-free
 
-deb http://mirrors.ustc.edu.cn/debian/ stable-updates main contrib non-free
-deb-src http://mirrors.ustc.edu.cn/debian/ stable-updates main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian/ stretch-updates main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian/ stretch-updates main contrib non-free
 
-deb http://mirrors.ustc.edu.cn/debian/ stable-backports main contrib non-free
-deb-src http://mirrors.ustc.edu.cn/debian/ stable-backports main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian/ stretch-backports main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian/ stretch-backports main contrib non-free
 
-deb http://mirrors.ustc.edu.cn/debian stable-proposed-updates main contrib non-free
-deb-src http://mirrors.ustc.edu.cn/debian stable-proposed-updates main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian stretch-proposed-updates main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian stretch-proposed-updates main contrib non-free
 
-deb http://mirrors.ustc.edu.cn/debian-security/ stable/updates main contrib non-free
-deb-src http://mirrors.ustc.edu.cn/debian-security/ stable/updates main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian-security/ stretch/updates main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/debian-security/ stretch/updates main contrib non-free
 
 
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+
 deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+
 deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+
 deb https://mirrors.tuna.tsinghua.edu.cn/debian-security stretch/updates main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security stretch/updates main contrib non-free
 
 
-deb http://mirrors.zju.edu.cn/debian/ stable main contrib non-free
-deb-src http://mirrors.zju.edu.cn/debian/ stable main contrib non-free
+deb http://mirrors.zju.edu.cn/debian/ stretch main contrib non-free
+deb-src http://mirrors.zju.edu.cn/debian/ stretch main contrib non-free
 
-deb http://mirrors.zju.edu.cn/debian/ stable-updates main contrib non-free
-deb-src http://mirrors.zju.edu.cn/debian/ stable-updates main contrib non-free
+deb http://mirrors.zju.edu.cn/debian/ stretch-updates main contrib non-free
+deb-src http://mirrors.zju.edu.cn/debian/ stretch-updates main contrib non-free
 
-deb http://mirrors.zju.edu.cn/debian/ stable-backports main contrib non-free
-deb-src http://mirrors.zju.edu.cn/debian/ stable-backports main contrib non-free
+deb http://mirrors.zju.edu.cn/debian/ stretch-backports main contrib non-free
+deb-src http://mirrors.zju.edu.cn/debian/ stretch-backports main contrib non-free
 
-deb http://mirrors.zju.edu.cn/debian stable-proposed-updates main contrib non-free
-deb-src http://mirrors.zju.edu.cn/debian stable-proposed-updates main contrib non-free
+deb http://mirrors.zju.edu.cn/debian stretch-proposed-updates main contrib non-free
+deb-src http://mirrors.zju.edu.cn/debian stretch-proposed-updates main contrib non-free
 
-deb http://mirrors.zju.edu.cn/debian-security/ stable/updates main contrib non-free
-deb-src http://mirrors.zju.edu.cn/debian-security/ stable/updates main contrib non-free
-
-
-#deb http://mirrors.zju.edu.cn/debian/ stretch main non-free contrib
-#deb http://mirrors.zju.edu.cn/debian/ stretch-updates main non-free contrib
-#deb http://mirrors.zju.edu.cn/debian-security/ stretch/updates main non-free contrib
-#deb-src http://mirrors.zju.edu.cn/debian/ stretch main non-free contrib
-#deb-src http://mirrors.zju.edu.cn/debian/ stretch-updates main non-free contrib
-#deb-src http://mirrors.zju.edu.cn/debian-security/ stretch/updates main non-free contrib
+deb http://mirrors.zju.edu.cn/debian-security/ stretch/updates main contrib non-free
+deb-src http://mirrors.zju.edu.cn/debian-security/ stretch/updates main contrib non-free
 
 
 #Tips: alternate sources.list
 
-#deb http://mirrors.xjtu.edu.cn/debian/ stable main contrib non-free
-#deb-src http://mirrors.xjtu.edu.cn/debian/ stable main contrib non-free
+#deb http://mirrors.xjtu.edu.cn/debian/ stretch main contrib non-free
+#deb-src http://mirrors.xjtu.edu.cn/debian/ stretch main contrib non-free
 
-#deb http://mirrors.xjtu.edu.cn/debian/ stable-updates main contrib non-free
-#deb-src http://mirrors.xjtu.edu.cn/debian/ stable-updates main contrib non-free
+#deb http://mirrors.xjtu.edu.cn/debian/ stretch-updates main contrib non-free
+#deb-src http://mirrors.xjtu.edu.cn/debian/ stretch-updates main contrib non-free
 
-#deb http://mirrors.xjtu.edu.cn/debian/ stable-backports main contrib non-free
-#deb-src http://mirrors.xjtu.edu.cn/debian/ stable-backports main contrib non-free
+#deb http://mirrors.xjtu.edu.cn/debian/ stretch-backports main contrib non-free
+#deb-src http://mirrors.xjtu.edu.cn/debian/ stretch-backports main contrib non-free
 
-#deb http://mirrors.xjtu.edu.cn/debian stable-proposed-updates main contrib non-free
-#deb-src http://mirrors.xjtu.edu.cn/debian stable-proposed-updates main contrib non-free
+#deb http://mirrors.xjtu.edu.cn/debian stretch-proposed-updates main contrib non-free
+#deb-src http://mirrors.xjtu.edu.cn/debian stretch-proposed-updates main contrib non-free
 
-#deb http://mirrors.xjtu.edu.cn/debian-security/ stable/updates main contrib non-free
-#deb-src http://mirrors.xjtu.edu.cn/debian-security/ stable/updates main contrib non-free
+#deb http://mirrors.xjtu.edu.cn/debian-security/ stretch/updates main contrib non-free
+#deb-src http://mirrors.xjtu.edu.cn/debian-security/ stretch/updates main contrib non-free
 
-#deb http://mirror.lzu.edu.cn/debian/ stable main contrib non-free
-#deb-src http://mirror.lzu.edu.cn/debian/ stable main contrib non-free
+#deb http://mirror.lzu.edu.cn/debian/ stretch main contrib non-free
+#deb-src http://mirror.lzu.edu.cn/debian/ stretch main contrib non-free
 
-#deb http://mirror.lzu.edu.cn/debian/ stable-updates main contrib non-free
-#deb-src http://mirror.lzu.edu.cn/debian/ stable-updates main contrib non-free
+#deb http://mirror.lzu.edu.cn/debian/ stretch-updates main contrib non-free
+#deb-src http://mirror.lzu.edu.cn/debian/ stretch-updates main contrib non-free
 
-#deb http://mirror.lzu.edu.cn/debian/ stable-backports main contrib non-free
-#deb-src http://mirror.lzu.edu.cn/debian/ stable-backports main contrib non-free
+#deb http://mirror.lzu.edu.cn/debian/ stretch-backports main contrib non-free
+#deb-src http://mirror.lzu.edu.cn/debian/ stretch-backports main contrib non-free
 
-#deb http://mirror.lzu.edu.cn/debian stable-proposed-updates main contrib non-free
-#deb-src http://mirror.lzu.edu.cn/debian stable-proposed-updates main contrib non-free
+#deb http://mirror.lzu.edu.cn/debian stretch-proposed-updates main contrib non-free
+#deb-src http://mirror.lzu.edu.cn/debian stretch-proposed-updates main contrib non-free
 
-#deb http://mirror.lzu.edu.cn/debian-security/ stable/updates main contrib non-free
-#deb-src http://mirror.lzu.edu.cn/debian-security/ stable/updates main contrib non-free
+#deb http://mirror.lzu.edu.cn/debian-security/ stretch/updates main contrib non-free
+#deb-src http://mirror.lzu.edu.cn/debian-security/ stretch/updates main contrib non-free
 
-#deb http://mirrors.aliyun.com/debian/ stable main contrib non-free
-#deb-src http://mirrors.aliyun.com/debian/ stable main contrib non-free
+#deb http://mirrors.aliyun.com/debian/ stretch main contrib non-free
+#deb-src http://mirrors.aliyun.com/debian/ stretch main contrib non-free
 
-#deb http://mirrors.aliyun.com/debian/ stable-updates main contrib non-free
-#deb-src http://mirrors.aliyun.com/debian/ stable-updates main contrib non-free
+#deb http://mirrors.aliyun.com/debian/ stretch-updates main contrib non-free
+#deb-src http://mirrors.aliyun.com/debian/ stretch-updates main contrib non-free
 
-#deb http://mirrors.aliyun.com/debian/ stable-backports main contrib non-free
-#deb-src http://mirrors.aliyun.com/debian/ stable-backports main contrib non-free
+#deb http://mirrors.aliyun.com/debian/ stretch-backports main contrib non-free
+#deb-src http://mirrors.aliyun.com/debian/ stretch-backports main contrib non-free
 
-#deb http://mirrors.aliyun.com/debian stable-proposed-updates main contrib non-free
-#deb-src http://mirrors.aliyun.com/debian stable-proposed-updates main contrib non-free
+#deb http://mirrors.aliyun.com/debian stretch-proposed-updates main contrib non-free
+#deb-src http://mirrors.aliyun.com/debian stretch-proposed-updates main contrib non-free
 
-#deb http://mirrors.aliyun.com/debian-security/ stable/updates main contrib non-free
-#deb-src http://mirrors.aliyun.com/debian-security/ stable/updates main contrib non-free
+#deb http://mirrors.aliyun.com/debian-security/ stretch/updates main contrib non-free
+#deb-src http://mirrors.aliyun.com/debian-security/ stretch/updates main contrib non-free
 
-#deb http://mirrors.163.com/debian/ stable main contrib non-free
-#deb-src http://mirrors.163.com/debian/ stable main contrib non-free
+#deb http://mirrors.163.com/debian/ stretch main contrib non-free
+#deb-src http://mirrors.163.com/debian/ stretch main contrib non-free
 
-#deb http://mirrors.163.com/debian/ stable-updates main contrib non-free
-#deb-src http://mirrors.163.com/debian/ stable-updates main contrib non-free
+#deb http://mirrors.163.com/debian/ stretch-updates main contrib non-free
+#deb-src http://mirrors.163.com/debian/ stretch-updates main contrib non-free
 
-#deb http://mirrors.163.com/debian/ stable-backports main contrib non-free
-#deb-src http://mirrors.163.com/debian/ stable-backports main contrib non-free
+#deb http://mirrors.163.com/debian/ stretch-backports main contrib non-free
+#deb-src http://mirrors.163.com/debian/ stretch-backports main contrib non-free
 
-#deb http://mirrors.163.com/debian stable-proposed-updates main contrib non-free
-#deb-src http://mirrors.163.com/debian stable-proposed-updates main contrib non-free
+#deb http://mirrors.163.com/debian stretch-proposed-updates main contrib non-free
+#deb-src http://mirrors.163.com/debian stretch-proposed-updates main contrib non-free
 
-#deb http://mirrors.163.com/debian-security/ stable/updates main contrib non-free
-#deb-src http://mirrors.163.com/debian-security/ stable/updates main contrib non-free
+#deb http://mirrors.163.com/debian-security/ stretch/updates main contrib non-free
+#deb-src http://mirrors.163.com/debian-security/ stretch/updates main contrib non-free
