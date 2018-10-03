@@ -1,5 +1,5 @@
 #!/bin/bash
-sourcesfile="https://raw.githubusercontent.com/zhimengyun/Debian/8.x/.vimrc"
+sourcesfile="https://raw.githubusercontent.com/zhimengyun/Debian/9.x/.vimrc"
 filename=$(basename $sourcesfile)
 
 #备份目标文件

@@ -1,5 +1,5 @@
 #!/bin/bash
-sourcesfile="https://raw.githubusercontent.com/zhimengyun/Debian/8.x/.bashrc"
+sourcesfile="https://raw.githubusercontent.com/zhimengyun/Debian/9.x/.bashrc"
 filename=$(basename $sourcesfile)
 
 #验证权限

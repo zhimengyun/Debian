@@ -16,3 +16,6 @@ alias l='ls $LS_OPTIONS -lA'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
+# 忽略所有历史命令中的重复命令
+HISTCONTROL=erasedups
