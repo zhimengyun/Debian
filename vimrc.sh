@@ -16,7 +16,3 @@ fi
 
 echo "wget .vimrc~"
 wget $sourcesfile -O "$filename"
-
-#更新目标文件
-echo "replace .vimrc~"
-cp ./.vimrc $HOME/.vimrc

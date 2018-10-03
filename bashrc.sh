@@ -22,10 +22,3 @@ fi
 
 echo "wget .bashrc~"
 wget $sourcesfile -O "$filename"
-
-#更新目标文件
-echo "replace .bashrc~"
-cp ./.bashrc $HOME/.bashrc
-
-# need bash exec
-# source $HOME/.bashrc
